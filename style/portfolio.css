@@ -27,6 +27,7 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
+    cursor: pointer;
 }
 
 .section-title {
@@ -170,7 +171,7 @@ main section {
 footer {
     padding: 130px 230px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 100px;
 }
 
@@ -191,6 +192,8 @@ footer input[type="text"] , input[type="email"] {
 footer textarea {
     margin: 24px;
     display: block;
+    width: 80%;
+    padding: 10px 20px;
 }
 
 footer .btn-primary {
